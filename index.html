@@ -54,25 +54,19 @@
 
         <header class="portada">
             <div class="portada-sombra">
-                <div class="caja">
-                    <h1 class="titulo_portada">
-                        Titulo
-                    </h1>
-                    <p class="texto_portada">Lorem ipsum dolor sit amet. Ea beatae error qui veritatis voluptate sed similique quas aut unde quod et rerum perspiciatis eos molestias nihil.</p>
-                </div>
             </div>
         </header>
 
         <!-- Trailer -->
 
         <section class="trailer-section text-center" id="trailer">
-            <div class="  ">
+            <div>
                 <div class="row justify-content-center trailer-container">
                     <div class="">
                         <h2 class="  sinopsis_titulo">Trailer</h2>
                     </div>
                     <!-- Video Trailer-->
-                    <video controls>
+                    <video class="video" controls>
                         <source src="./assets/trailer.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
@@ -102,7 +96,7 @@
                             <h4 class="text-center sinopsis_titulo">Sinopsis</h4>
 
                             <p class="sinopsis_textos-p">
-                                Marcos es un joven artista de cómics quien tras morir en un accidente es revivido por una exorcista misteriosa que lo separa de su alma, la cual tiene personalidad propia y se hace llamar “Randal”.<br><br> Juntos deberán encontrar la forma de volver a unirse, mientras demonios, vampiros y otros seres del inframundo intentan apoderarse de sus extraños poderes espirituales. 
+                                <span class="amarillo">Marcos</span> es un joven artista de cómics quien tras morir en un accidente<span class="amarillo"> es revivido</span> por una exorcista misteriosa que lo separa de su alma, la cual tiene personalidad propia y se hace llamar <span class="amarillo">“Randal”</span>.<br><br> Juntos deberán encontrar la forma de <span class="amarillo"> volver a unirse</span> mientras demonios, vampiros y otros seres del inframundo intentan apoderarse de sus extraños poderes espirituales. 
                             </p>
                         </div>
                     
@@ -131,8 +125,8 @@
                 <!-- Img + Texto-->
                 <div class="row align-items-center sinopsis-cajas justify-content-between">
                     <!--Imagen bola de fuego-->
-                    <div class="col-xl-6 col-lg-12 poster poster_none">
-                        <img class="sinopsis-img2 " src="./assets/difuminada.png" alt="imagen personaje bola de fuego" />
+                    <div class="col-xl-5 col-lg-12 poster poster_none">
+                        <img class="sinopsis-img2 " src="./assets/sobreNosotros-bolaDeFuego.jpg" alt="imagen personaje bola de fuego" />
                     </div>
                     <!--Texto-->
                     <div class="col-xl-6 col-lg-12">
@@ -146,7 +140,7 @@
 
                      <!--Imagen responsive-->
                      <div class="col-xl-6 col-lg-12 poster_responsive">
-                        <img class="sinopsis-img2 mb-3 mb-lg-0" src="./assets/difuminada.png" alt="imagen personaje bola de fuego" />
+                        <img class="sinopsis-img2 mb-3 mb-lg-0" src="./assets/sobreNosotros-bolaDeFuego.jpg" alt="imagen personaje bola de fuego" />
                     </div>
                 </div>
             </div>
@@ -159,16 +153,28 @@
         
             <div class="redes-iconos">
                 <h2 class=" mb-4 text-center sinopsis_titulo">Nuestras Redes</h2>
-                
-                <div class="war-btn">
-                    <button class="bg1"><i class="fab fa-instagram"></i></button>
-                    <button class="bg3"><i class="fab fa-youtube"></i></button>
-                    <button class="bg5"><i class="fab fa-tiktok"></i></button>
-                </div>
             </div>
+            
 
             <div class=img-redes id="redes">
-                <div class="img-redes_fondo" id="redes"></div>
+
+                <div class="img-redes_fondo" id="redes">
+
+                    <div class="caja_redes">
+                        <h4 class="sinopsis_textos-p">Follow us:</h4>
+                        <div class="war-btn">
+                            <button class="bg1"><i class="fab fa-instagram"></i></button>
+                            <button class="bg3"><i class="fab fa-youtube"></i></button>
+                            <button class="bg5"><i class="fab fa-tiktok"></i></button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+               
+                
+                
             </div>
         </section>
 
