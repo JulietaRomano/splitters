@@ -10,12 +10,10 @@
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
        <!-- ANIMATE-->
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <link rel="stylesheet" href="css/animate.css">
-
+<!--Wow-->
+<link rel="stylesheet" href="css/animate.css">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/mio.css" rel="stylesheet">
@@ -35,7 +33,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#trailer">Trailer</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#sinopsis">Sinopsis</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sinopsis">About Us</a></li>
                         <li class="nav-item"><a class="nav-link" href="#redes">Redes</a></li>
                     </ul>
                 </div>
@@ -66,7 +64,7 @@
             <div>
                 <div class="row justify-content-center trailer-container">
                     <div class="">
-                        <h2 class="  sinopsis_titulo">Trailer</h2>
+                        <h2 class="sinopsis_titulo wow animate__ animate__fadeInUp animated">Trailer</h2>
                     </div>
                     <!-- Video Trailer-->
                     <video class="video" controls>
@@ -86,7 +84,7 @@
 
         <!-- Sinopsis-->
 
-        <section class="sinopsis-section" id="sobre-nosotros">
+        <section class="sinopsis-section" id="sinopsis">
 
             <div class="container ">
                 <!-- Img + Texto-->
@@ -96,7 +94,7 @@
                     <!-- Texto-->
                     <div class="col-xl-6 col-lg-12 ">
                         <div class="sinopsis_texto-container">
-                            <h4 class="text-center sinopsis_titulo">Sinopsis</h4>
+                            <h4 class="text-center sinopsis_titulo wow fadeInUp">Sinopsis</h4>
 
                             <p class="textos-p">
                                 <span class="amarillo">Marcos</span> es un joven artista de cómics quien tras morir en un accidente<span class="amarillo"> es revivido</span> por una exorcista misteriosa que lo separa de su alma, la cual tiene personalidad propia y se hace llamar <span class="amarillo">“Randal”</span>.<br><br> Juntos deberán encontrar la forma de <span class="amarillo"> volver a unirse</span> mientras demonios, vampiros y otros seres del inframundo intentan apoderarse de sus <span class="amarillo">extraños poderes </span>espirituales. 
@@ -114,7 +112,7 @@
                         </div>
                     </div>
                     <!--Imagen Poster-->
-                    <div class="col-xl-5 col-lg-12 cd poster wow bounceInUp">
+                    <div class="col-xl-5 col-lg-12 cd poster wow fadeInRight">
                         <img class="sinopsis-img1 mb-3 mb-lg-0" src="./assets/poster.jpg" alt="poster con los personajes de la serie" />
                     </div>
                 </div>
@@ -128,13 +126,13 @@
                 <!-- Img + Texto-->
                 <div class="row align-items-center sinopsis-cajas justify-content-between">
                     <!--Imagen bola de fuego-->
-                    <div class="col-xl-5 col-lg-12 poster poster_none">
+                    <div class="col-xl-5 col-lg-12 poster poster_none wow fadeInLeft">
                         <img class="sinopsis-img2 " src="./assets/sobreNosotros-bolaDeFuego.jpg" alt="imagen personaje bola de fuego" />
                     </div>
                     <!--Texto-->
                     <div class="col-xl-6 col-lg-12 ">
                         <div class="sinopsis_texto-container2">
-                            <h4 class="text-center sinopsis_titulo">Sobre nosotros</h4>
+                            <h4 class="text-center sinopsis_titulo wow fadeInUp">Sobre nosotros</h4>
                             <p class=" textos-p ">
                                 <span class="amarillo">“Splitters”</span> es un webcómic argentino creado en el año 2019 por <span class="amarillo">Marcos Di Francesco</span> (Guión) y <span class="amarillo">Richaldt</span> (Dibujo), producido por <span class="amarillo">SOULVERSE ANIMATION STUDIO</span>. La serie mezcla acción, humor y fantasía con referencias a series emblemáticas del <span class="amarillo">Manga Shōnen</span> de los años 90s y los 00s. <br> <br> Actualmente <span class="amarillo">continúa en publicación</span> con más de 50 episodios, dos especiales y una <span class="amarillo">adaptación </span>que se emitirá por sus redes sociales oficiales<span class="amarillo">a partir del 7 de abril de 2023</span>.”
                             </p>
@@ -152,8 +150,8 @@
         
 
         <!-- REDES -->
-        <section class="section-redes">
-            <h2 class=" mb-4 text-center sinopsis_titulo">Nuestras Redes</h2>
+        <section class="section-redes" id="redes">
+            <h2 class=" mb-4 text-center sinopsis_titulo wow fadeInUp">Nuestras Redes</h2>
             <div class="redes-img-bg">
                 <div class="caja_redes">
                     <h4 class="textos-p">Follow us:</h4>
@@ -182,9 +180,7 @@
 
 
         <script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
+        <script>new WOW().init();</script>
 
 
         <script src="./js/new.js"></script>
