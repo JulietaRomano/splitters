@@ -310,12 +310,12 @@ margin-bottom: 5rem;
   text-shadow: rgb(9, 0, 0) 0.1em 0.1em 0.2em;
   font-family: var(--textos-font-family);
   display: inline-block;
-  font-size: 1.2em;
-  padding: .7em;
+  font-size: 1.3em;
+  padding: .8em;
   width: 40%;
   -webkit-appearance: none;
   appearance: none;
-  background-color: var(--color-secundary);
+  background-color: #ff6200e5;
   color:  #fff;
   border-radius: 4px;
   border: solid #fffc5145;
@@ -324,6 +324,10 @@ margin-bottom: 5rem;
   transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
   box-shadow: 0 2px 25px rgba(255, 145, 1, 0.621);
 }
+.bubbly-button:hover{
+  background-color: #ff8000;
+}
+
 .bubbly-button:focus {
     outline: 0;
   }
@@ -585,6 +589,7 @@ margin-bottom: 5rem;
   .war-btn button:hover {
       font-size: 3.5rem;
       transform:scale(1.09);
+      background-color: #ff8000;
 
   }
   @keyframes pulse {
@@ -842,6 +847,13 @@ margin-bottom: 5rem;
   .redes-img-bg {
     height: 15vh;
   }
+  /*REDES*/
+  .redes-img_rsp {
+    margin-top: 3rem;
+  }  
+  .caja_redes {
+    padding-top: 2rem;
+  }
 }
   
 /* ------- 390px ------*/
@@ -849,31 +861,39 @@ margin-bottom: 5rem;
     
   
   
-   @media (max-width: 390px) {
+@media (max-width: 420px) {
   
-    /*SINOPSIS*/
-    *{
-      font-size: 9px;
-    }
-    .textos-p{
-      font-size: 16px;
-    }
-    .redes-img-bg {
-      height: 13vh;
-    }
-    /*Botones*/
-    .button-wrapper {
-      height: 4.6rem;
-      width: 50%;
-    }
-    .btn-a.background-button {
-      width: 80%;
-      height: 80%;
-    }
-    
-
-
+   
+  *{
+    font-size: 9px;
   }
+  .textos-p{
+    font-size: 15px;
+  }
+  .amarillo{
+    font-size: 15px;
+  }
+ /*SINOPSIS*/
+
+  .sinopsis-img {
+    margin-top: 4rem;
+  }
+  .sinopsis-img1 {
+    width: 60%;
+  } 
+
+  /*Botones*/
+
+  .bubbly-button{
+    font-size: 15px;
+    padding: .8em;
+    width: 45%;
+  }
+  .redes-img-bg {
+    height: 13vh;
+  }
+
+}
 /* ------- 350px ------*/
 
   @media (max-width: 350px) {
@@ -882,18 +902,54 @@ margin-bottom: 5rem;
     *{
       font-size: 9px;
     }
+    .textos-p{
+      font-size: 13px;
+    }
+    .amarillo{
+      font-size: 13px;
+    }
     .sinopsis-section {
       padding: 0rem 2rem 0rem 2rem;
     }
-    .sinopsis_titulo{
-      font-size: 2rem;
-      }
-      .textos-p{
-          font-size: 14px;
-        }
-    .fixed-top{
-      position: unset;
+    
+    /*Botones*/
+    .nuevo_boton {
+      flex-wrap: wrap;
     }
+    .bubbly-button{
+      font-size: 13px;
+      padding: .7em;
+      width: 45%;
+    }
+    .redes-img-bg {
+      height: 13vh;
+    }
+
   }
   
+  @media (max-width: 269px) {
+    *{
+      font-size: 8px;
+    }
   
+    .nuevo_boton {
+      flex-wrap: wrap;
+      align-items:center;
+      justify-content: center;
+      height: 150px;
+      padding: 0rem;
+    }
+    .bubbly-button{
+      font-size: 13px;
+      padding: .7em;
+      width: 150px;
+     
+    }
+    .redes-img-bg {
+      height: 13vh;
+    }
+    .war-btn {
+      flex-wrap: nowrap;
+    }
+  
+}
